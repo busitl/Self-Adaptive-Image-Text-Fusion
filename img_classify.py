@@ -75,5 +75,5 @@ for epoch in range(1, epochs + 1):
     results['test_acc@1'].append(test_acc_1)
 
     data_frame = pd.DataFrame(data=results, index=range(1, epoch + 1))
-    data_frame.to_csv('/path/to/save/iamge/model.csv', index_label='epoch')
-    torch.save(model.state_dict(), '/path/to/iamge/model.pth')
+    data_frame.to_csv('/path/to/save/image/model.csv', index_label='epoch')
+    torch.save(model.state_dict(), '/path/to/image/model.pth')
