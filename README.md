@@ -3,4 +3,5 @@ Abstract: Multimodal classification using both medical images and text reports p
 # Usage
 Training image and text models:  
   `python img_classify.py`
-  `python txt_classify.py`
+  `python txt_classify.py`  
+Save image and text model parameters: 
