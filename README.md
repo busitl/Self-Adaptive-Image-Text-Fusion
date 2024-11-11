@@ -7,3 +7,6 @@ Training image and text models:
 Save image and text model parameters:  
 `torch.save(model.state_dict(), '/path/to/image/model.pth')`  
 `torch.save(model.state_dict(), '/path/to/text/model.pth')`  
+Training a multimodal model:  
+Set text and image model paths: `model_path1, model_path2 = '/path/to/text/model.pth', '/path/to/image/model.pth'`  
+`python multimodal_classify.py`
