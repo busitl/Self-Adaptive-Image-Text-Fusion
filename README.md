@@ -6,6 +6,6 @@ Training image and text models:
 `python txt_classify.py`  
 Save image and text model parameters:  
 `
-torch.save(model.state_dict(), '/path/to/image/model.pth')  
+torch.save(model.state_dict(), '/path/to/image/model.pth')\n
 torch.save(model.state_dict(), '/path/to/iamge/model.pth')
 `
